@@ -1,37 +1,38 @@
 <!DOCTYPE html> // si presional ! + TAB te da automaticamente la estrucutura // sirve para inidcar que es un archivo html
-<html lang="en"> // la propiedad lang inidica el lenguaje que vamos a utilizar y se complementa con el charset // las etiquetas tiene un incio y cierre
+<html lang="español"> // la propiedad lang inidica el lenguaje que vamos a utilizar y se complementa con el charset // las etiquetas tiene un incio y cierre
 <head> // contiene configuracion del docuemnto html para ser leido por los navegadores o por otras aplicaciones relacionadas a los navegadores
     <meta charset="UTF-8"> // charset corresponde al tipo de lenguaje en el se escribe el UTF-8 corresponde al que utilizamos (español)
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> // da compatibilidad para internet explorer y edge
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> // viewport permite visivilizar en el navegador sin utilizar en el scroll 
-    <link> rel
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> // viewport es vista que se tiene del navegador en pantalla sin la utilización del el scroll 
+    <link rel="stylesheed" href=style.css>
     <title>Etiquetas HTLM</title> // titulo del documento html
 </head> // no se visualiza en pantalla es solo configuracion
-
-<body> // va todo el contenido del documento 
-    <h1 id="titulo1" class=2">Hola Mundo</h1> 
-    <header> // corresponde al encabezado del docuento html (pestañas)
-
+<nav></nav>
+<body> // va todo el contenido del documento, codigo, es decir todo lo que se visualiza dentro de una pagina web
+    <header> // corresponde al encabezado del documento html, siempre estan en la parte superior y se dejan de ver cuando navego por la pagina al contenido de mas abajo (pestañas)
+        <h1 id="titulo1" class=2">Hola Mundo</h1> // tilulos o encabezados // el h1 es el mas grande y el h6 el mas pequeño // una buena practica es que solo tengamosun titulo principal (h1)
+        <h2 id="titulo2" class=2">Hola Mundo</h2>
+        <h3 id="titulo3" class=2">Hola Mundo</h3>
+        <h4 id="titulo4" class=2">Hola Mundo</h4>
+        <h5 id="titulo5" class=2">Hola Mundo</h5>
+        <h6 id="titulo6" class=2">Hola Mundo</h6>
     </header>
-    <section>
+    <section> dentro de una seccion van los articulos (art)
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quidem ipsa tempora.</p>
     </section>
-    
+    <footer> // siempre se utiliza l final del documento y sirve para señalar informacion complementaria
+        <p>copyrigth</p>
+    </footer>
 </body>
 </html>
 
 
-
-
-
-
-
-
-// las propiedades de las etiquetas siempre van en la etiqueta de cierre
+// las propiedades de las etiquetas siempre van en la etiqueta de cierre  
 existen muchas de etiquetas y deben tener las siguientes caracteristicas:
 - deben ser unicos (no repetirse)
 - su nombre debe ser representativo 
 - 
 las mas utilizadas son:
-id identificador unicos
-class vinculacion con el class
+id  = identificador unico
+class = vinculacion con el class de nuestro docuemto CSS, y se debe vincular previamente.
+todas las etiquetas que van dentro del body tiene el id y el class
