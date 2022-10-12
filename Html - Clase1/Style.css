@@ -1,0 +1,50 @@
+*{
+    font-family: roboto; sans-serif;
+    margin: 0;
+    /*border: 1px solid red; */
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 20px;
+}
+
+ol {
+    list-style: none;
+}
+
+#head {
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    padding:0 10px;
+}
+
+#head2 { 
+    font-size: 20px;
+}
+
+.desordenada li {
+    display: incline;
+    text-align: center;
+    margin: 0 5px;
+    padding: 5px;
+    border: 1px;
+}
+
+.pie-de-pagina {
+    margin-top: 20px;
+    padding: 0 10px;
+    background-color: darkgray;
+}
+
+.main {
+    padding: 0 30px;
+}
+
+.main>article>footer {
+    font-size: 20px;
+}
